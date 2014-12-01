@@ -11,7 +11,7 @@ mw.kalturaPluginWrapper(function(){
 			'thumbWidth': 100,
 			'minWidth': 100,
 			'disableControls':false,
-			'displayImportance': "medium"
+			'displayImportance': "high"
 		},
 
 		isSliderPreviewEnabled: function(){
