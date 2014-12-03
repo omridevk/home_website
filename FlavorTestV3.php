@@ -1,5 +1,5 @@
 <div class = "container-fluid">
-<div class="row pull-left" style ="width:100%;">
+<div class="row pull-left" id = "forming" style ="width:100%;">
 	<div class="col-md-3">
 		<form class="form-signin" role="form">
 			<fieldset>
@@ -114,7 +114,7 @@
 
 
 		$(window).load(function() {
-			$("#rowTest").show(500);
+			$("#forming").show(500);
 		});
 
 
@@ -131,7 +131,7 @@
 
 </footer>
 <style>
-	#rowTest{
+	#forming{
 		display:none;
 	}
 	.enabled {
